@@ -1,6 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
         <script>
            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -11,10 +18,127 @@
            ga('send', 'pageview');
 
         </script>
+
         <title>The Picnic Table Shoppe</title>
+        
+        <style>
+            
+            #nav {
+                background-color: black;
+            }
+            #home {
+                height: 100vh;
+                background-color: #b5bcc9;
+                float: center;
+            }
+            #table_pics {
+                height: 100vh;
+                padding-left: 0;
+                padding-right: 0;
+            }
+            #build_tut {
+                height: 100vh;
+                padding-left: 0;
+                padding-right: 0;
+            }
+            #about {
+                height: 100vh;
+                padding-left: 0;
+                padding-right: 0;
+            }
+            #contact {
+                height: 100vh;
+                padding-left: 0;
+                padding-right: 0;
+                float: center;
+                text-align: center;
+                background-color: #151921;
+                color: white;
+            }
+            #footer {
+                height: 100vh;
+                padding-left: 0;
+                padding-right: 0;
+            }
+            
+            .padd {
+                padding: 10px;
+                padding-top: 40px;
+            }
+            
+            .big_text_header {
+                font-size: 300%;
+            }
+            
+            
+        </style>
+        
     </head>
     
     <body>
+        
+        <div id="nav">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#table_pics">Photos</a></li>
+                    <li><a href="#build_tut">Construction</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+        
+        <div id="home">
+            <div class="padd">
+                <h1>Home</h1>
+            </div>
+        </div>
+        
+        <div id="table_pics">
+            <div class="padd">
+                <h1>Table Pics</h1>
+            </div>
+        </div>
+        
+        <div id="build_tut">
+            <div class="padd">
+                <h1>Construction</h1>
+            </div>
+            
+        </div>
+        
+        <div id="about">
+            <div class="padd">
+                <h1>About</h1>
+            </div>
+            
+        </div>
+        
+        <div id="contact">
+            <div class="padd">
+                <div class="big_text_header">
+                    <p>Contact Us</p>
+                </div>
+                <p style="font-size: 175%; padding-top: 10%"><span class="glyphicon glyphicon-envelope"></span> mikecarpentry76@gmail.com</p>
+            </div>
+            
+        </div>
+        
+        <div id="footer">
+            
+        </div>
         
     </body>
 </html>
