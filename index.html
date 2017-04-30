@@ -90,7 +90,7 @@
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
+                    <span class="icon-bar"></span>
                   </button>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -137,11 +137,28 @@
                 <div class="big_text_header">
                     <p>Contact Us</p>
                 </div>
-                <p style="font-size: 175%; padding-top: 10%"><span class="glyphicon glyphicon-envelope"></span> mikecarpentry76@gmail.com</p>
-                <p><button class="w3-button w3-teal w3-round-xxlarge">Email</button></p>
-            </div>
-            
-        </div>
+                <a href="mailto:mikecarpentry76@gmail.com" style="color: white; text-decoration: none;"><button class="w3-button w3-teal w3-round-xxlarge">Email</button></a>
+                  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-teal w3-round-xxlarge">Call</button>
+                      <div id="id01" class="w3-modal w3-animate-opacity">
+                        <div class="w3-modal-content w3-card-4">
+                          <header class="w3-container w3-teal"> 
+                            <span onclick="document.getElementById('id01').style.display='none'" 
+                            class="w3-button w3-large w3-display-topright">&times;</span>
+                            <h2>Call</h2>
+                          </header>
+                          <div class="w3-container">
+                              <br>
+                            <p style="color: black;"><strong>Office:</strong> (941)-302-6183</p>
+                            <p style="color: black;"><strong>Cell:</strong> (941)-302-4423</p>
+                            <br>
+                          </div>
+                          <footer class="w3-container w3-teal">
+                            <p>The Picnic Table Shoppe</p>
+                          </footer>
+                        </div>
+                      </div>
+             
+        </div> 
         
         <div id="footer">
             
